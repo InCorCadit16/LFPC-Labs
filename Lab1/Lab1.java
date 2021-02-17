@@ -1,16 +1,5 @@
 import java.util.*;
 
-
-/*
-    // The Grammar is of type 3 (regular grammar) 
-    // since all production rules are in the form X → a or X → aY.
-    //
-    // It's not grammar of a type with a wider scope (such as type 2)
-    // because its rules don't fit the type to requirements,
-    // e.g. productions are in form A → γ where A is non-terminal and 
-    // γ is combination of terminals and non-terminals.
-*/
-
 public class Lab1 {
     
     static List<String> N = List.of("S", "B", "L");
